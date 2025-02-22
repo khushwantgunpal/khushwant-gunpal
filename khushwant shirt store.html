@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirt Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+        }
+        .shirt {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .shirt img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .form-container {
+            max-width: 300px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            text-align: center;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .form-container button {
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Shirt Store</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#login">Login</a>
+        <a href="#register">Register</a>
+    </nav>
+    
+    <div class="container" id="home">
+        <h2>Our Collection</h2>
+        <div class="shirt">
+            <img src="https://www.snitch.co.in/cdn/shop/files/4MSS3601-01_1_533abc29-d205-4df5-8f3b-67b34a04ded2.jpg?v=1739286715&width=1800" alt="Shirt 1">
+            <div>
+                <h3>Causal Shirt</h3>
+                <p>A timeless piece, made with 100% cotton.</p>
+            </div>
+        </div>
+        <div class="shirt">
+            <img src="https://www.snitch.co.in/cdn/shop/files/4MSS3877-06_1_3a68c86b-ecfe-47d1-88dc-399b999e81ba.jpg?v=1738736505&width=1800" alt="Shirt 2">
+            <div>
+                <h3>Classic Shirt</h3>
+                <p>Perfect for any occasion, lightweight fabric.</p>
+            </div>
+        </div>
+<div class="shirt">
+            <img src="https://www.snitch.co.in/cdn/shop/files/4MSS3917-05_5_ea641a99-e110-4bf0-ba48-2a4dee1468aa.jpg?v=1738652572&width=1800" alt="Shirt 3">
+            <div>
+                <h3>Causal Shirt</h3>
+                <p>A timeless piece, made with 100% cotton.</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="container" id="about">
+        <h2>About Our Shirts</h2>
+        <p>We offer high-quality shirts made from premium materials. Our collection includes formal, casual, and trendy designs for every occasion.</p>
+    </div>
+    
+    <div class="container" id="login">
+        <h2>Login</h2>
+        <div class="form-container">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button>Login</button>
+        </div>
+    </div>
+    
+    <div class="container" id="register">
+        <h2>Register</h2>
+        <div class="form-container">
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button>Register</button>
+        </div>
+    </div>
+</body>
+</html>
